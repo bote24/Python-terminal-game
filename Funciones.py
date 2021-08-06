@@ -81,7 +81,7 @@ def combate(vida,ataques,esquivar,vidaEnemigo,dañoEnemigo,esquivarEnemigo):
         else: 
             print('Como tu especial estaba en cooldown se hizo un ataque basico')
             if random.randint(1,esquivarEnemigo) != esquivarEnemigo:
-                daño = ataques[accion]
+                daño = ataques['Basico']
                 vidaEnemigo -= daño
                 if vidaEnemigo <= 0:
                     print('Has logrado vencerlo')
