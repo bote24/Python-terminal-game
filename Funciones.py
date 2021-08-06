@@ -105,7 +105,7 @@ def combate(vida,ataques,esquivar,vidaEnemigo,dañoEnemigo,esquivarEnemigo):
         tienes {vida} puntos de vida y 
         el enemigo tiene {vidaEnemigo} puntos de vida
         ''')
-        if turno > 0:
+        if turno != 0:
             turno -=1 
 
 def acabar_combate(ataques):
